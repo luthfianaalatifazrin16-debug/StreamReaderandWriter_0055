@@ -15,4 +15,9 @@ int main()
     {
         std::cerr << e.what() << '\n';
     }
+    // kondisi jika throw yang bertipe data integer
+    catch (int a)
+    {
+        cout << "Pengecualian akan di eksekusi" << endl;
+    }
 }
