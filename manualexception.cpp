@@ -20,4 +20,10 @@ int main()
     {
         cout << "Pengecualian akan di eksekusi" << endl;
     }
+    // kondisi jika throw bertipe data seslain integer
+    catch (...)
+    {
+        cout << "default pengecualian dieksekusi" << endl;
+    }
+    return 0;
 }
