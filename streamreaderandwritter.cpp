@@ -7,4 +7,7 @@ int main()
 {
     // deklarasi variable baris untuk menyimpan data string
     string baris;
+
+    // membuka file dalam mode menulis
+    ofstream outfile;
 }
