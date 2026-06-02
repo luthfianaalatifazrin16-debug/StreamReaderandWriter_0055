@@ -29,4 +29,7 @@ int main()
     }
     // menutup file setelah penulisian selasai
     outfile.close();
+
+    // membuka file setelah penulisan selesai
+    ifstream infile;
 }
